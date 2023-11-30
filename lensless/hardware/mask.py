@@ -426,7 +426,6 @@ class MultiLensArray(Mask):
         max_val = np.max(phi)
 
         phi = phi * (2 * np.pi / max_val)
-        min_val = np.min(phi)
         fig, ax = plt.subplots()
         im = ax.imshow(phi, cmap="gray")
         fig.colorbar(im, ax=ax, shrink=0.5, aspect=5)
