@@ -18,6 +18,7 @@ trainable_mask:
   L1_strength: 1e-5
   binary: False
   initial_value:
+    N : 10 #TODO: check this value ? 
 
 simulation:
   grayscale: False
