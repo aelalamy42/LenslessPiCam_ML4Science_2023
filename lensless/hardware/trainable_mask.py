@@ -156,6 +156,7 @@ class TrainableHeightVarying(TrainableMask):
         #4)
         self._set_optimizer(initial_param)
         
+    print("I accessed the TrainHeightVar")
     def get_psf(self):
         self._mask_obj.compute_psf()
         return self._mask_obj.psf.unsqueeze(0)
