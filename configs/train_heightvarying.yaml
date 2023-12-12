@@ -19,6 +19,7 @@ trainable_mask:
   binary: False
   initial_value:
     N : 10 #TODO: check this value ? 
+    #should be [min_value, max_value]?
 
 simulation:
   grayscale: False
