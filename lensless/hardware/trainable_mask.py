@@ -151,7 +151,7 @@ class TrainableHeightVarying(TrainableMask):
 
         #3)
         self._height_map = torch.nn.Parameter(self._mask_obj.height_map)
-        initial_param = self._height_map
+        initial_param = [self._height_map]
         
         #4)
         self._set_optimizer(initial_param)
